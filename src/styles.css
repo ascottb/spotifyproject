@@ -4,3 +4,7 @@
 body {
   margin: 0;
 }
+
+.mat-toolbar {
+  background: #1db954 !important;
+}
