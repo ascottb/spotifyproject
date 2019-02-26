@@ -45,5 +45,6 @@ a:active {
 }
 
 .mat-toolbar .mat-primary {
-  background: #1db954 !important;
+  /*background: #1db954 !important;*/
+  background: #222 !important;
 }
