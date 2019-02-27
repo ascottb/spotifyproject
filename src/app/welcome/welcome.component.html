@@ -3,10 +3,25 @@
   <p>
     This is a platform for finding new music on Spotify and sharing it with your friends.
   </p>
+  <div class="content"
+       fxLayout="row"
+       fxLayout.xs="column"
+       fxFlexFill >
+      <div class="layout-wrapper" fxFlex="50">
+        <mat-card>
+          <h1>Logo 1</h1>
+          <img src="assets/cover_photo_1.png" style="width: 100%;">
+        </mat-card>
+      </div>
+      <div class="layout-wrapper" fxFlex="50">
+        <mat-card>
+          <h1>Logo 2</h1>
+          <img src="assets/cover_photo_2.png" style="width: 100%;">
+        </mat-card>
+      </div>
+  </div>
   <mat-card>
-    <h1>Test</h1>
-    <img src="assets/logo_transparent.png" style="height: 100%; width: 100%;">
-    <img src="assets/cover_photo_1.png" style="height: 100%; width: 100%;">
-    <img src="assets/cover_photo_2.png" style="height: 100%; width: 100%;">
+    <h1>Connect your account here</h1>
+    <button mat-raised-button color="accent"><mat-icon>account_circle</mat-icon>Connect</button>
   </mat-card>
 </div>

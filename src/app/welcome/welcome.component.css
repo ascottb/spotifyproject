@@ -10,3 +10,7 @@ h1 {
   margin: 10px;
   background: #111 !important;
 }
+
+.layout-wrapper {
+  transition:all cubic-bezier(0.250, 1.5, 3, 0.1) 1.5s;
+}

@@ -48,3 +48,9 @@ a:active {
   /*background: #1db954 !important;*/
   background: #222 !important;
 }
+
+.bottom_right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
